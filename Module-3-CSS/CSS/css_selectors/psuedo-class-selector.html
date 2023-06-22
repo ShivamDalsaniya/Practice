@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Psuedo Class Selector</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body
+        {
+            margin: 0%;
+            padding: 0%;
+            overflow-x: hidden;
+            background-color: darkslategray;
+        }
+        .frm
+        {
+            width: 30%;
+            height: auto;
+            margin: auto;
+        }
+        fieldset
+        {
+            border: dotted 2px tan;
+            margin-top: 5%;
+            height: auto;
+            padding: 5px;
+            text-align: center;
+            padding: 10px;
+            background: url(Images/back.gif) no-repeat;
+            background-size: cover;
+        }
+        input[type="submit"]
+        {
+            width: 50%;
+            height: auto;
+            border: none;
+            padding: 5px;
+            background-color: aqua;
+        }
+        input[type="text"],input[type="email"],input[type="number"],textarea
+        {
+            width: 80%;
+            height: auto;
+            padding: 5px;
+        }
+        legend
+        {
+            color: darkorange;
+            font-size: 30px;
+        }
+        .navbar
+        {
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 5px;
+            background-color: dimgray;
+            text-decoration: none;
+        }
+        .navbar ul li
+        {
+            display: inline-block;
+            padding: 0px 30px;
+            color: aqua;
+            text-decoration: none;
+        }
+        .navbar a
+        {
+            color: antiquewhite;
+            text-decoration: none;
+            list-style-type: none;
+        }
+        .navbar a:active
+        {
+            color: sienna;
+            text-decoration: underline;
+        }
+        /* .navbar a:link
+        {
+            color: royalblue;
+            text-decoration: underline;
+        } */
+        .navbar a:visited
+        {
+            color: black;
+            text-decoration: underline;
+        }
+        .navbar a:hover
+        {
+            color: gold;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Our Games</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="#">Account</a></li>
+        </ul>
+    </div>
+    
+    <div class="frm">
+        <form method="post">
+            <fieldset>
+                <legend align="center">Contact Us</legend>
+                    <input type="text" name="name" placeholder="name" required>
+                    <br><br>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <br><br>
+                    <input type="number" name="phone" placeholder="Phone No." required>
+                    <br><br>
+                    <input type="text" name="subject" placeholder="Subject" required>
+                    <br><br>
+                    <textarea name="address" placeholder="address" required></textarea>
+                    <br><br>
+                    <input type="submit" name="Contact" value="send">
+            </fieldset>
+        </form>
+    </div>
+
+</body>
+</html>

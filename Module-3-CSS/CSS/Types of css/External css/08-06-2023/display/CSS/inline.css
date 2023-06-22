@@ -1,0 +1,52 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+#header
+{
+    width: 100%;
+    top: 0;
+    background-color: black;
+    position: fixed;
+}
+.logo
+{
+    color: white;
+    width: 20%;
+    font-size: 25px;
+    display: inline-block;
+    /* margin-left: 5%; */
+}
+.text
+{
+    width: 40%;
+    font-size: 25px;
+    display: inline-block;
+    margin-left: 5%;
+}
+.account
+{
+    color: white;
+    width: 30%;
+    font-size: 25px;
+    display: inline-block;
+    margin-left: 0%;
+}
+.content
+{
+    width: 50%;
+    height: 1000px;
+    margin: auto;
+    background-color: darkgoldenrod;
+}
+h1
+{
+    text-align: center;
+}
+p
+{
+    text-align: center;
+}

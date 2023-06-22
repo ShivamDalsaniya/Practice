@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-INDEX</title>
+    <style>
+        #block
+        {
+            width: 100%;
+            height: auto;
+            padding: 25px;
+            position: relative;
+        }
+        .block1
+        {
+            width: 350px;
+            height: 250px;
+            background-color: red;
+            position: absolute;
+            z-index: 1;
+        }
+        .block2
+        {
+            width: 350px;
+            height: 250px;
+            background-color: green;
+            position: absolute;
+            margin-left: 15%;
+            margin-top: 5%;
+            z-index: -1;
+        }
+        .block3
+        {
+            width: 350px;
+            height: 250px;
+            background-color: blue;
+            position: absolute;
+            margin-left: 26%;
+            margin-top: 10%;
+            z-index: -2;
+        }
+    </style>
+</head>
+<body>
+    
+    <section id="block">
+        <div class="block1"></div>
+        <div class="block2"></div>
+        <div class="block3"></div>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div
+        {
+            width: 100px;
+            height: 100px;
+            background: goldenrod;
+            position: relative;
+            animation: test 4s infinite;
+        }
+        @keyframes test
+        {
+            from {top: 0px;}
+            50% {top: 100px !important} /*ignored*/
+            to {top: 200px;}
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Animation</h1>
+    <p>The !important rule is ignored in a keyframe. Try to remove it, and see the result.</p>
+    <div></div>animation.
+
+</body>
+</html>

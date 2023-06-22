@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOX-SHADOW</title>
+    <style>
+        body
+        {
+            margin: 0;
+            padding: 0;
+            background-color: sienna;
+            -webkit-animation: 2s backInDown alternate;
+            -moz-animation: 2s backInDown alternate;
+            animation: 2s backInDown;
+        }
+        .box,.box1
+        {
+            width: 50%;
+            height: auto;
+            margin: auto;
+            padding: 15px;
+            background-color: aqua;
+            margin-top: 2%;
+            border: solid 10px;
+            -webkit-border-image:url(Images/border.jpg) round 70;
+            -moz-border-image: url(Images/border.jpg) round 70;
+            border-image: url(Images/border.jpg) round 70;
+            box-shadow: 15px 15px 10px 0px orangered; 
+        }
+        .box h1
+        {
+            font-size: 40px;
+            -webkit-animation: 2s flash infinite;
+            -moz-animation: 2s flash infinite;
+            animation: 2s flash infinite;
+            text-shadow: 2px 5px 4px orange;
+        }
+        .box1 img
+        {
+            animation: 3s headshake infinite;
+        }
+        .box1 h1
+        {
+            animation: 3s shakeY infinite;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="box">
+        <h1>Register Now </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ipsam ducimus totam delectus asperiores. Corporis porro magnam eaque officiis nostrum blanditiis accusamus est consectetur dolorum sequi maxime inventore, aspernatur debitis.</p>
+    </div>
+    <div class="box1">
+        <h1>Robotics</h1>
+        <p> <img src="Images/robot3.png" alt="" style="width: 150px; height: 150px; float: left; padding: 5px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus doloremque libero maiores aspernatur fugiat adipisci deserunt? Inventore temporibus laboriosam aut suscipit, ratione earum qui enim placeat veritatis, natus dolorem cumque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque repellendus sunt ipsum esse libero consequatur nam, excepturi atque exercitationem, deleniti minima alias dolorem cupiditate iure totam qui, dignissimos inventore itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, et temporibus iure tempora eveniet doloremque autem culpa ducimus. Architecto recusandae eum quis fugit alias nam aliquam, et eaque incidunt adipisci.</p>
+    </div>
+
+</body>
+</html>

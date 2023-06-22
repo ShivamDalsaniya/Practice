@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Psuedo Element Selector</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body
+        {
+            margin: 0%;
+            padding: 0%;
+            overflow-x: hidden;
+            background-color: darkslategray;
+        }
+        .frm
+        {
+            width: 30%;
+            height: auto;
+            margin: auto;
+        }
+        fieldset
+        {
+            border: dotted 2px tan;
+            margin-top: 5%;
+            height: auto;
+            padding: 5px;
+            text-align: center;
+            padding: 10px;
+        }
+        input[type="submit"]
+        {
+            width: 50%;
+            height: auto;
+            border: none;
+            padding: 5px;
+            background-color: aqua;
+        }
+        input[type="text"],input[type="email"],input[type="number"],textarea
+        {
+            width: 80%;
+            height: auto;
+            padding: 5px;
+        }
+        legend
+        {
+            color: darkorange;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="frm">
+        <form method="post">
+            <fieldset>
+                <legend align="center">Contact Us</legend>
+                    <input type="text" name="name" placeholder="name" required>
+                    <br><br>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <br><br>
+                    <input type="number" name="phone" placeholder="Phone No." required>
+                    <br><br>
+                    <input type="text" name="subject" placeholder="Subject" required>
+                    <br><br>
+                    <textarea name="address" placeholder="address" required></textarea>
+                    <br><br>
+                    <input type="submit" name="Contact" value="send">
+            </fieldset>
+        </form>
+    </div>
+
+</body>
+</html>

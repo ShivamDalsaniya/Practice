@@ -1,0 +1,43 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+#box1
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.content
+{
+    width: 250px;
+    height: 200px;
+    background-color: sandybrown;
+    margin: 5px;
+    padding: 5px;
+}
+#box2
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: end;
+    margin-top: 5%;
+    justify-content: space-evenly;
+    cursor: grabbing;
+}
+#box3
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    justify-content: space-evenly;
+    cursor: progress;
+}
