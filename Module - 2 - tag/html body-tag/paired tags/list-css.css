@@ -1,0 +1,24 @@
+        body
+        {
+            background-color: black
+        }
+        h2
+        {
+            font-size: 20px;
+            color: aqua;
+        }
+        h3
+        {
+            color: aquamarine;
+        }
+        ol
+        {
+            color: burlywood;
+        }
+        ul
+        {
+            color: brown;
+        }
+        li
+        {
+            color: olive;

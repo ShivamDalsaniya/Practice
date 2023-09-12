@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Display Properties</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='main.js'></script>
+    <style>
+          /* universal selector : universal selector called through "*" called  stylesheet or css in all sections */
+        *
+        {
+            margin: 0%;
+            padding: 0%;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        } 
+        body
+        {
+            margin: 0%;
+            padding: 0%;
+            overflow-x: hidden;
+        }
+        #head
+        {
+            width: 100%;
+            height: auto;
+            padding: 5px;
+            background-color: cornflowerblue;
+            display: flex;
+            flex-direction: row;
+        }
+        .logo
+        {
+            width: 40%;
+            height: auto;
+            font-size: 20px;
+        }
+        .logo b
+        {
+            margin-left: 5%;
+            padding: 10px;
+            font-size: 45px;
+            color: sienna;
+        }
+        .search 
+        {
+            width: 60%;
+            height: auto;
+        }
+        .search input
+        {
+            width: 100%;
+            height: auto;
+            padding: 10px;
+            margin-top: 1%;
+        }
+        .social-media
+        {
+            width: 35%;
+            padding: 5px;
+            margin-left: 10%;
+            margin-top: 0.5%;
+        }
+        .social-media b
+        {
+            font-size: 15px;
+            color: palegreen;
+        }
+        #information
+        {
+            width: 50%;
+            height: auto;
+            margin: auto;
+            background-color: aquamarine;
+            padding: 15px;
+            margin-top: 3%;
+        }
+    </style>
+</head>
+<body>
+    
+    <section id="head">
+        <div class="logo Company">
+            <b>Flipkart</b>
+        </div>
+        <div class="search search-items">
+            <input type="text" name="search" placeholder="search here">
+        </div>
+        <div class="social social-media">
+            <b>Like us on:
+                <span class="fa fa-facebook-square"></span>
+                <span class="fa fa-whatsapp"></span>
+                <span class="fa fa-instagram"></span>
+                <span class="fa fa-twitter-square"></span>
+            </b>
+        </div>
+    </section>
+
+    <section id="information">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem voluptas consequuntur, in adipisci unde reiciendis, molestiae numquam aperiam neque rerum necessitatibus repudiandae velit, enim ullam alias aliquam cum vel? Accusamus?</p>
+    </section>
+
+</body>
+</html>

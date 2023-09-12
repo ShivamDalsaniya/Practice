@@ -1,0 +1,50 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+#content
+{
+    width: 100%;
+    height: auto;
+}
+.box1
+{
+    width: 200px;
+    height: 100px;
+    background-color: crimson;
+    padding: 10px;
+    float: left;
+    margin-top: 2%;
+}
+.box2
+{
+    width: 200px;
+    height: 100px;
+    background-color: cyan;
+    padding: 10px;
+    float: left;
+    margin-top: 2%;
+}   
+.box3
+{
+    width: 200px;
+    height: 100px;
+    background-color: crimson;
+    margin: 4px;
+    padding: 10px;
+    float: left;
+    margin-top: 2%;
+}
+.box4
+{
+    width: 200px;
+    height: 100px;
+    background-color: chocolate;
+    margin: 4px;
+    padding: 10px;
+    float: left;
+    margin-top: 2%;
+}

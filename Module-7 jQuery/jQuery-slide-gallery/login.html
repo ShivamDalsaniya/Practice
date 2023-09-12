@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='https://code.jquery.com/jquery-3.7.0.min.js'></script>
+    <script>
+        $(document).ready(function(){
+            $("#demo").click(function(){
+                $("#slider img").fadeToggle(4000);
+            });
+            // toggler a login
+            $("#login").click(function(){
+                // $(".login").fadeToggle(4000);
+                // $(".login").fadeToggle();
+                // $(".login").fadeToggle("slow");
+                // $(".login").fadeToggle(2000);
+
+                // $(".login").fadeToggle("slow");
+                $(".login"). slideToggle("slow");
+            })
+        })
+    </script>
+    <style>
+        body 
+        {
+            margin: 0;
+            padding: 0;
+        }
+        #slide 
+        {
+            width: 100%;
+            height: auto;
+            background-color: black;
+            color: white;
+            padding: 15px;
+        }
+
+        #slide b 
+        {
+            font-size: 30px;
+        }
+        #slider img
+        {
+            width: 100%;
+            height: 350px;
+            display: none;
+        }
+        #login
+        {
+            width: 120px;
+            height: auto;
+            background-color: white;
+            border: none;
+            padding: 10px;
+            float: right;
+            margin-right: 3%;
+        }
+
+        .login 
+        {
+            width: 40%;
+            height: auto;
+            margin: auto;
+            padding: 25px 15px;
+            box-shadow: 4px 4px 4px 4px;
+            margin-top: 5%;
+            display: none;
+        }
+        .form-group input
+        {
+           width: 350px;
+           height: auto;
+           margin: 15px;
+           padding: 8px;
+        }
+
+        input[type="submit"]
+        {
+            width: 180px;
+            height: auto;
+            background-color: red;
+            border: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="slide"><b id="demo">Click for slide </b>  <button type="button" id="login">Login</button></div>
+    <div id="slider">
+        <img src="https://wowslider.com/sliders/demo-18/data1/images/hongkong1081704.jpg">
+    </div>
+
+   <div class="login">
+    <div class="form-group">
+    <h1>Login Form</h1>  
+    </div>
+      
+      <div class="form-group">
+        <input type="text" name="email" placeholder="Email *">
+      </div>
+      
+      <div class="form-group">
+        <input type="password" name="password" placeholder="Password *">
+      </div>
+
+      <div class="form-group">
+        <input type="submit" name="sub" value="Login" placeholder="Password *">
+      </div>
+   </div>
+</body>
+</html>

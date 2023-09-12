@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='js/address.js'></script>
+    <style>
+        h1 {
+            font-size: 45px;
+            letter-spacing: 2px;
+            color: white;
+            margin-left: 3%;
+
+        }
+
+        hr {
+            align: left;
+            margin-left: 3%;
+            width: 30%;
+            border: solid 2px white;
+        }
+
+        #locations {
+
+            height: auto;
+            display: flex;
+            /* flex-wrap: nowrap;
+            width: calc( 500vw / 3 );   */
+            flex-wrap: wrap;
+            flex-direction: row;
+            margin: 5px;
+            padding: 10px;
+            justify-content: space-around;
+        }
+
+        .address1 {
+            width: 45%;
+            height: auto;
+            margin: 5px;
+            padding: 15px;
+            background-color: white;
+
+        }
+    </style>
+</head>
+
+<body bgcolor="coral">
+
+
+    <h1>Our Locations</h1>
+    <hr align="left">
+    <section id="locations">
+
+        <div class="address1" id="add1">
+            <script>
+                address1();
+            </script>
+        </div>
+        <div class="address1">
+            <script>
+                address2();
+            </script>
+        </div>
+        <div class="address1">
+            <script>
+                address3();
+            </script>
+        </div>
+        <div class="address1">
+            <script>
+                address4();
+            </script>
+        </div>
+
+    </section>
+</body>
+
+</html>

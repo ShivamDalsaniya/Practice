@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <script src='https://code.jquery.com/jquery-3.7.0.min.js'></script>
+    <script>
+        $(document).ready(function(){
+            $("#btn").click(function(){
+                $('#add').toggle(1000);
+            })
+        })
+    </script>
+    <title>Toggler</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            box-sizing: border-box;
+        }
+        #add{
+            width: 50%;
+            display: none;
+        }
+        
+        .btn-toggler{
+            width: 30%;
+            height: auto;
+            padding: 5px;
+            /* position: absolute; */
+        }
+        .btn-toggler,.fa-bars{
+            font-size: 45px;
+        }
+        .nav-link{
+            margin: auto;
+        }
+        .nav-link li{
+            display: block;
+            text-decoration: none;
+            list-style-type: none;
+            padding: 5px;
+        }
+        .nav-link a{
+            font-size: 20px;
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="btn-toggler" id="btn">
+        <span class="fa fa-bars"></span>
+    </div>
+
+    <section id="add">
+        <div class="navbar-toggler">
+            <ul class="nav-link">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Portfolio</a></li>
+            </ul>
+        </div>
+    </section>
+
+</body>
+
+</html>

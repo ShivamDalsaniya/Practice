@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+
+    <center>
+
+        <form action="welcome.html">
+            <input type="text" name="name" placeholder="Name *" required>
+            <br><br>
+
+            <input type="email" name="email" placeholder="Email *" required>
+            <br><br>
+
+            <input type="password" name="password" placeholder="Password *"
+                pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" required>
+            <br><br>
+
+            <input type="text" name="mobile" placeholder="Mobile *" required>
+            <br><br>
+
+            Gender : male:<input type="radio" name="gender" value="male" checked>
+            female:<input type="radio" name="gender" value="female">
+            other:<input type="radio" name="gender" value="other">
+            <br><br>
+
+
+            Hobbies : reading:<input type="checkbox" name="chk" value="reading" checked>
+            smoke:<input type="checkbox" name="chk" value="smoke">
+            swimming:<input type="checkbox" name="chk" value="swimming">
+            <br><br>
+
+            Country:<select name="country">
+                <option>-select country-</option>
+                <option value="1">India</option>
+                <option value="2">usa</option>
+            </select>
+            <br><br>
+
+
+            select multiple city:<select name="city" multiple max="3">
+                <option>-select city-</option>
+                <option value="1">Rajkot</option>
+                <option value="2">ahemdabad</option>
+                <option value="1">junagad</option>
+                <option value="2">gandhinagar</option>
+                <option value="1">surat</option>
+                <option value="2">Vadodra</option>
+                <option value="1">jaipur</option>
+                <option value="2">kota</option>
+            </select>
+            <br><br>
+
+
+            <input type="submit" name="sub" value="register">
+
+
+        </form>
+        </form>
+
+</body>
+
+</html>

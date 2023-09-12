@@ -1,0 +1,1 @@
+j query load function loads data from server.

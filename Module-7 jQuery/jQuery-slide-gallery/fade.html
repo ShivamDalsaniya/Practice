@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='https://code.jquery.com/jquery-3.7.0.min.js'></script>
+    <script>
+        $(document).ready(function(){
+            $("#slide").click(function(){
+                $("#slider img").fadeToggle(4000);
+            })
+        })
+    </script>
+    <style>
+        body 
+        {
+            margin: 0;
+            padding: 0;
+        }
+        #slide 
+        {
+            width: 100%;
+            height: auto;
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        #slider img
+        {
+            width: 100%;
+            height: 350px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="slide"><h1>Click for slide</h1></div>
+    <div id="slider">
+        <img src="https://wowslider.com/sliders/demo-18/data1/images/hongkong1081704.jpg">
+    </div>
+</body>
+</html>

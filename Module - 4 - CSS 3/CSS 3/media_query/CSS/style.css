@@ -1,0 +1,481 @@
+ body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: white;
+}
+#header {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    padding: 5px;
+    background-color: burlywood;
+    display: flex;
+}
+
+.logo {
+    width: 25%;
+    height: auto;
+    font-size: 20px;
+    padding-top: 3px;
+    margin-left: 0%;
+}
+
+.search {
+    width: 50%;
+    height: auto;
+    margin-left: 0%;
+}
+
+.search input {
+    width: 80%;
+    height: auto;
+    padding: 5px;
+    margin-left: 65% !important;
+}
+
+.social-media {
+    width: 20%;
+    height: auto;
+    font-size: 25px;
+    margin-left: 45%;
+}
+
+#banner {
+    width: 90%;
+    height: 70vh;
+    margin-left: 5%;
+    background: url(https://thumbs.dreamstime.com/z/ecommerce-icon-special-blue-banner-background-ecommerce-icon-isolated-special-blue-banner-background-abstract-illustration-123108022.jpg);
+    background-size: 100% 100%;
+}
+
+.banner-text {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    background-color: rgba(231, 20, 66, 0.425);
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.banner-text h1 {
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+.banner-text p {
+    color: white;
+    padding: 5px;
+    text-align: center;
+} 
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+
+    #header {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        padding: 5px;
+        background-color: burlywood;
+        display: flex;
+        /* float: right; */
+    }
+
+    .logo {
+        width: 20%;
+        height: auto;
+        font-size: 20px;
+    }
+
+    .search {
+        width: 100%;
+        height: auto;
+        font-size: 15px;
+        margin: 0 !important;
+        margin-left: 15% !important;
+    }
+
+    .search input {
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        font-size: 10px;
+        margin-left: 10% !important;
+    }
+    
+    .social-media {
+        width: 100% !important;
+        height: auto;
+        padding: 0;
+        font-size: 18px;
+        float: right;
+        margin-left: 10%;
+    }
+    
+    #banner {
+        width: 90%;
+        height: 60vh;
+        margin-left: 5%;
+        background: url(https://thumbs.dreamstime.com/z/ecommerce-icon-special-blue-banner-background-ecommerce-icon-isolated-special-blue-banner-background-abstract-illustration-123108022.jpg);
+        background-size: 100% 100%;
+        position: relative;
+    }
+
+    .banner-text {
+        width: 90%;
+        height: 210px !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        background-color: rgba(231, 20, 66, 0.425);
+        position: absolute;
+        margin-left: 5% !important;
+        margin-top: 8% !important;
+    }
+
+    .banner-text h1 {
+        color: white;
+        padding: 5px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .banner-text p {
+        color: white;
+        padding: 5px;
+        text-align: justify;
+    } 
+}
+
+@media only screen and (min-width: 575px) and (max-width: 767px) {
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+
+    #header {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        padding: 5px;
+        background-color: burlywood;
+        display: flex;
+    }
+
+    .logo {
+        width: 20%;
+        height: auto;
+        font-size: 20px;
+    }
+
+    .search {
+        width: 50%;
+        height: auto;
+        font-size: 15px;
+        margin: 0 !important;
+        margin-left: 15% !important;
+    }
+
+    .search input {
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        font-size: 10px;
+        margin-left: 10% !important;
+    }
+    
+    .social-media {
+        width: 100% !important;
+        height: auto;
+        padding: 0;
+        font-size: 18px;
+        float: right;
+        /* margin-left: 25% !important; */
+    }
+    
+    #banner {
+        width: 90%;
+        height: 60vh;
+        margin-left: 5%;
+        background: url(https://thumbs.dreamstime.com/z/ecommerce-icon-special-blue-banner-background-ecommerce-icon-isolated-special-blue-banner-background-abstract-illustration-123108022.jpg);
+        background-size: 100% 100%;
+        position: relative;
+    }
+
+    .banner-text {
+        width: 90%;
+        height: 150px !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        background-color: rgba(231, 20, 66, 0.425);
+        position: absolute;
+        margin-left: 5% !important;
+        margin-top: 10% !important;
+    }
+
+    .banner-text h1 {
+        color: white;
+        padding: 5px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .banner-text p {
+        color: white;
+        padding: 5px;
+        text-align: justify;
+    }
+}
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+
+    #header {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        padding: 5px;
+        background-color: burlywood;
+        display: flex;
+    }
+
+    .logo {
+        width: 20%;
+        height: auto;
+        font-size: 20px;
+        padding: 0px;
+    }
+
+    .search {
+        width: 100%;
+        height: auto;
+        font-size: 15px;
+        margin-left: 30%;
+    }
+
+    .search input {
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        font-size: 10px;
+        margin-left: 0% !important;
+    }
+
+    .social-media {
+        width: 100%;
+        height: auto;
+        margin: 0 !important;
+        font-size: 18px;
+        /* margin-left: 35% !important; */
+    }
+
+    #banner {
+        width: 90%;
+        margin-left: 5%;
+        background: url(https://thumbs.dreamstime.com/z/ecommerce-icon-special-blue-banner-background-ecommerce-icon-isolated-special-blue-banner-background-abstract-illustration-123108022.jpg);
+        background-size: 100% 100%;
+        position: relative;
+    }
+
+    .banner-text {
+        width: 90%;
+        height: 210px;
+        margin: 0;
+        padding: 0;
+        background-color: rgba(231, 20, 66, 0.425);
+        position: absolute;
+        margin-left: 5%;
+        margin-top: 6%;
+    }
+
+    .banner-text h1 {
+        color: white;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .banner-text p {
+        color: white;
+        padding: 5px;
+        text-align: justify;
+    }
+}
+@media only screen and (min-width: 991px) and (max-width: 1199px){
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+
+    #header {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        padding: 5px;
+        background-color: burlywood;
+        display: flex;
+    }
+
+    .logo {
+        width: 20%;
+        height: auto;
+        font-size: 20px;
+        padding: 0px;
+    }
+
+    .search {
+        width: 100%;
+        height: auto;
+        font-size: 15px;
+        margin-left: 30% !important;
+    }
+
+    .search input {
+        width: 80%;
+        height: auto;
+        padding: 5px;
+        font-size: 10px;
+        margin-left: 0% !important;
+    }
+
+    .social-media {
+        width: 100%;
+        height: auto;
+        margin: 0 !important;
+        font-size: 18px;
+        margin-left: 35% !important;
+    }
+
+    #banner {
+        width: 90%;
+        margin-left: 5%;
+        background: url(https://thumbs.dreamstime.com/z/ecommerce-icon-special-blue-banner-background-ecommerce-icon-isolated-special-blue-banner-background-abstract-illustration-123108022.jpg);
+        background-size: 100% 100%;
+        position: relative;
+    }
+
+    .banner-text {
+        width: 90%;
+        height: 210px;
+        margin: 0;
+        padding: 0;
+        background-color: rgba(231, 20, 66, 0.425);
+        position: absolute;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+
+    .banner-text h1 {
+        color: white;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .banner-text p {
+        color: white;
+        padding: 5px;
+        text-align: justify;
+    }
+}
+@media only screen and (min-width: 1199px) and (max-width: 1399px){
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+
+    #header {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        padding: 5px;
+        background-color: burlywood;
+        display: flex;
+    }
+
+    .logo {
+        width: 20%;
+        height: auto;
+        font-size: 20px;
+        padding: 0px;
+        margin-left: 5%;
+    }
+
+    .search {
+        width: 100%;
+        height: auto;
+        font-size: 15px;
+        margin-left: 10% !important;
+    }
+
+    .search input {
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        font-size: 10px;
+        margin-left: 95% !important;
+    }
+
+    .social-media {
+        width: 100%;
+        height: auto;
+        margin: 0 !important;
+        font-size: 18px;
+        margin-left: 55% !important;
+    }
+
+    #banner {
+        width: 90%;
+        margin-left: 5%;
+        background: url(https://thumbs.dreamstime.com/z/ecommerce-icon-special-blue-banner-background-ecommerce-icon-isolated-special-blue-banner-background-abstract-illustration-123108022.jpg);
+        background-size: 100% 100%;
+        position: relative;
+    }
+
+    .banner-text {
+        width: 90%;
+        height: 210px;
+        margin: 0;
+        padding: 0;
+        background-color: rgba(231, 20, 66, 0.425);
+        position: absolute;
+        margin-left: 5%;
+        margin-top: 4%;
+    }
+
+    .banner-text h1 {
+        color: white;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .banner-text p {
+        color: white;
+        padding: 5px;
+        text-align: justify;
+    }
+} 

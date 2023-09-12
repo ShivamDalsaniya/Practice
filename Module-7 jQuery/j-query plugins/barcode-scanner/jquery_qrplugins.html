@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.classyqr.js"></script>
+    <script type="text/javascript" src="js/jquery.qrcode.js"></script>
+</head>
+<body>
+
+    <div class="clearfix">
+        <div class="qrcode"></div>
+        <script>
+            $(document).ready(function() {
+                $('.qrcode').ClassyQR({
+                    create: true,
+                    type: 'url',
+                    url:'http://www.onlineportfolio.byethost14.com'
+                        
+                });
+            });
+        </script>
+        <br />
+    </div>
+</div>
+    
+</body>
+</html>

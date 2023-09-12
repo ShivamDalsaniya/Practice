@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src='https://code.jquery.com/jquery-3.7.1.min.js'></script>
+     <script src="https://malsup.github.io/jquery.cycle.all.js"></script>
+     <script>
+          $(document).ready(function () {
+               $("#slide").cycle("fade, turnLeft, turnRight, shuffle, zoom");
+          })
+     </script>
+     <title>Document</title>
+     <style>
+          body {
+               margin: 0;
+               padding: 0;
+               overflow-x: hidden;
+               box-sizing: border-box;
+          }
+
+          #slider {
+               width: 100%;
+               height: 450px;
+               margin: 0;
+               padding: 0;
+               top: 0;
+          }
+
+          #slide img {
+               width: 100%;
+               height: 450px;
+          }
+     </style>
+</head>
+
+<body>
+     <div id="slider">
+          <div id="slide">
+               <img src="https://wowslider.com/sliders/demo-18/data1/images/hongkong1081704.jpg">
+               <img src="https://wowslider.com/sliders/demo-18/data1/images/shanghai.jpg">
+               <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1LW6dRa4CwZS5QyDQXP_Ms0Uyz011uyYPX9YXwyawDmskB7KM7r6rA_4freLjSc5hM48&usqp=CAU">
+          </div>
+     </div>
+</body>
+
+</html>

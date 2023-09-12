@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://code.jquery.com/jquery-3.7.0.min.js'></script>
+    <script>
+        $(document).ready(function(){
+            $("#btn").click(function(){
+                $("#demo").hide(2000);
+            })
+            $("#btn1").click(function(){
+                $("#demo").show(1000);
+            })
+        })
+    </script>
+    <title>Show-Text</title>
+</head>
+<body>
+
+    <p id="demo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum cum aspernatur facere harum cupiditate minima quibusdam nam nostrum at qui, minus perspiciatis repudiandae unde quisquam dolorum officia, voluptates hic ab!</p>
+    <button type="button" id="btn">Click To Hide</button>
+    <button type="button" id="btn1">Click To SHow</button>
+    
+</body>
+</html>

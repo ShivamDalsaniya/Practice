@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://code.jquery.com/jquery-3.7.0.min.js'></script>
+    <script>
+        $(document).ready(function(){
+            $("#btn").click(function(){
+                $("#demo").toggle(2000);
+                 // $("#demo").toggle();
+                 // $("#demo").toggle("slow");
+                 // $("#demo").toggle("fast");
+            })
+        })
+    </script>
+    <title>Toggler</title>
+</head>
+<body>
+
+    <p id="demo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla corporis animi exercitationem, facere quam quod eius doloremque nemo repellendus aspernatur quia impedit natus? Commodi quia suscipit eveniet ut minus saepe! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate fuga laborum odio voluptatum. Sint voluptatem assumenda magni nobis cum distinctio vitae veritatis alias. Repudiandae exercitationem quo explicabo, ea reprehenderit consequuntur.</p>
+    <button type="button" id="btn">Click For Toggle</button>
+    
+</body>
+</html>

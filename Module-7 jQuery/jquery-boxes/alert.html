@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+     <script>
+          $(document).ready(function(){
+               $("#btn").click(function(){
+                    var a=parseInt(prompt('enter the value of a'));
+                    var b=parseInt(prompt('enter the value of b'));
+                    var c=a+b;
+                    alert('addition of numbers is:' +c)
+               });
+               $("#btn1").click(function(){
+                    var a=parseInt(prompt('enter the value of a'));
+                    var b=parseInt(prompt('enter the value b'));
+                    var c=a-b
+                    alert('substraction of numbers is:' +c)
+               });
+          })
+     </script>
+</head>
+<body>
+
+     <button type="button" id="btn">Addition</button>
+     <button type="button" id="btn1">Substraction</button>
+     
+</body>
+</html>

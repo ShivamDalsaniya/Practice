@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/cart.css'>
+    <script src="js/cart.js"></script>
+</head>
+
+<body>
+
+    <div class="section">
+
+        <h1 align="center">Register Now >></h1>
+
+        <form method="post" name="frm" onsubmit="return val(this.value)">
+            <table width="50%" align="center">
+                <tr>
+                    <td><input type="text" name="fname" id="fname" placeholder="FirstName *"></td>
+
+                </tr>
+                <tr>
+                    <td><input type="text" name="lname" id="lname" placeholder="LastName *"></td>
+
+                </tr>
+                <tr>
+                    <td><input type="text" name="email" id="email" placeholder="Email *"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="submit" name="sub" value="Register" placeholder="Email *"></td>
+                </tr>
+
+            </table>
+        </form>
+
+        <table width="100%">
+            <thead>
+                <tr>
+                    <th>
+                        <h2>View Cart(1)</h2>
+                    </th>
+                </tr>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Photo</th>
+                    <th>qty</th>
+                    <th>Price</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr align="center">
+                    <td>1001</td>
+                    <td>Samsung</td>
+                    <td><img src="https://www.cnet.com/a/img/resize/446bbfcfdca034e18bb720e0c2b0b3c122e4cb13/hub/2023/02/04/9ca7b0e6-af19-4ec1-a0ce-52745a25b5d3/samsung-galaxy-s23-ultra-3.jpg?auto=webp&width=1200"
+                            width="100px" height="100px"></td>
+                    <td><input type="number" id="qty" value="1" min="1" max="10" onchange="subtotalcrt()"></td>
+                    <td>Rs. <input type="text" id="price" value="130000" readonly style="border: none; width:45px"></td>
+                    <td><button type="button">Delete</button></td>
+
+                </tr>
+
+                <tr>
+                    <td align="right" colspan="6">
+                        <h1 style="width:30%; background-color: black; color: white; padding: 18px;">Subtotals of Rs.
+                            <label id="tot">130000</label></h1>
+                    </td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+
+</body>
+
+</html>
